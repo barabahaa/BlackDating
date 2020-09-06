@@ -1,0 +1,74 @@
+.navbar-light,.footer{
+    background-color:rgba(196, 196, 196, 0.7);
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.content, footer{
+    background-color:rgba(255,255,255,.9);
+}
+.navbar-brand:hover,.nav-link:hover{
+    text-shadow: 1px 1px 10px gray;
+}
+.intro-content{
+    position: relative;
+    height: 100vh;
+}
+.intro-content h1{
+    color: #fff;
+    font-size: calc(20px + 40*( 100vw/1280));
+    position: absolute;
+    right: 0;
+    top:30%;
+    margin:-0;
+    text-shadow: 5px 5px 10px #000;
+}
+.intro-content h4{
+    color: #fff;
+    font-size: calc(10px + 20*( 100vw/1280));
+    position: absolute;
+    right: 5%;
+    top:50%;
+    text-shadow: 5px 5px 10px #000;
+}
+.nav-link,.navbar-brand{
+    color: black;
+    font-weight: 900;
+}
+.intro{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    background-image: url('https://ionemadamenoire.files.wordpress.com/2017/04/skype-with-your-bff-e14929326582181.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro::after{
+    content: '';
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right,rgba(255,255,255,.1),60%,rgba(0,0,0,.5));
+}
+.title-cite{
+    color:#fff;
+}
+.about,.registration{
+    margin-top:77px;
+    padding:10px;
+    background:rgba(255,255,255,0.9); 
+}
+.about h3{
+    text-align: center;
+}
+.about p::first-letter{
+    margin-left: 30px;
+}
+.breadcrumb{
+    background-color: rgba(255,255,255,0);
+}
